@@ -82,6 +82,17 @@ def is_even(n):
     else:
         return False
 
+def is_odd(n):
+    """
+    Determoines if a number is odd
+    n: integer
+    Returns" True if n is odd, fals otherwise
+    """
+    if ((n%2)==0):
+        return False
+    else:
+        return True
+        
 
 if __name__ == '__main__':
     import doctest
