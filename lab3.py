@@ -45,4 +45,9 @@ def is_triangle(a, b, c):
 	a, b, c - trhee positive numbers
 	Returns: True if the theorem holds, False otherwise
 	"""
+
 # conditional to do the checking
+	if ((a+b < c) | (c+b < a) | (a+c < b)):
+		return False
+	else:
+		return True
